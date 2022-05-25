@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityModManager\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="AirBrake">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\Mods\AirBrake\AirBrake.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="DV.BrakeSystem">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\DV.BrakeSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityModManager">
+      <HintPath>S:\Program Files (x86)\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed\UnityModManager\UnityModManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
